@@ -13,8 +13,7 @@ class AuthorsController < ApplicationController
       redirect_to author_path(@author)
     else
       render :new
-
-    redirect_to author_path(@author)
+end
   end
 
   private
